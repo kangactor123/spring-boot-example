@@ -33,5 +33,4 @@ public class AuthController {
                                                  HttpServletResponse response) {
         return ResponseEntity.ok(authService.refreshAccessToken(refreshToken, response));
     }
-
 }
